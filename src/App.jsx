@@ -8,9 +8,11 @@ const App = () => {
   return (
     <>
       <Nav />
-      <Hero />
+      <div className='h-[100vh] flex flex-col justify-center items-center'>
+        <Hero />
+      </div>
     </>
   )
 }
 
-export default App
+export default App;

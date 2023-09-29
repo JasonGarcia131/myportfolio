@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
-import { AiOutlineMenu } from 'react-icons/ai'
+import { AiOutlineMenu } from 'react-icons/ai';
+import '../index.css'
+
 const Nav = () => {
 
     const [toggle, setToggle] = useState(false);
@@ -11,20 +13,20 @@ const Nav = () => {
     }
 
     return (
-        <nav className="w-full py-6 flex justify-end">
+        <nav className="w-full py-6 flex justify-end ">
             {
                 toggle
-                    ? <div className='flex flex-col mr-2 justify-between'>
-                        <div onClick={()=>handleToggle()}>X</div>
+                    ? <div className='flex flex-col mr-2 justify-between fixed top-0 bg-black z-40 md:hidden sidebar'>
+                        <div className='self-end' onClick={()=>handleToggle()}>X</div>
                         <a>Projects</a>
                         <a>Resume</a>
                         <a>About</a>
                         <a>Github</a>
                         <a>Contact</a>
                     </div>
-                    : <AiOutlineMenu className='absolute top-4 right-4 sm:hidden' onClick={()=>handleToggle()} />
+                    : <AiOutlineMenu className='absolute top-4 right-4 md:hidden' onClick={()=>handleToggle()} />
             }
-            <div className='w-2/4 max-sm:hidden mr-2 flex justify-between'>
+            <div className='w-2/4 pl-[7px] max-md:hidden mr-2 flex justify-between'>
                 <a>Projects</a>
                 <a>Resume</a>
                 <a>About</a>
