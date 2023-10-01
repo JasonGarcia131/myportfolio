@@ -14,8 +14,8 @@ const Projects = () => {
                 <p>{item.description}</p>
             </div>
             <div className='w-full h-[5%] object-bottom items-end px-2 flex flex-row justify-between font-bold'>
-                <a href={item.codeLink}>Code</a>
-                {item.pageLink == "#" ? <p>Run Locally</p> : <a href={item.pageLink}>Page</a>}
+                <a className='underline' href={item.codeLink}>Code</a>
+                {item.pageLink == "#" ? <p>Run Locally</p> : <a className='underline' href={item.pageLink}>Page</a>}
             </div>
         </div>
     ))
