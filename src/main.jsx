@@ -8,7 +8,7 @@ import About from './components/pages/About.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Router>
+    <Router basename='/myportfolio/'>
       <Routes>
         <Route exact path='/' element={<App/>}/>
         <Route path='/resume' element={<Resume/>}/>
