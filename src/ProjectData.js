@@ -10,18 +10,10 @@ export const ProjectData = [
     {
         imgUrl: img2,
         name: "Twitter Message Interface",
-        techStack: "React",
-        description: "Twitter message interface with a search bar function and screen stack navigation. Data is pulled from a local data file",
+        techStack: "React, Redux",
+        description: "Messaging interface with a search bar function and screen stack navigation to mock Twitter's messaging feature. Data is fetched from a db file using a json-server. Navigation was achieved with react-router-dom.",
         codeLink: "https://github.com/JasonGarcia131/Twitter-Messaging-Interface",
         pageLink: "https://jasongarcia131.github.io/Twitter-Messaging-Interface/"
-    },
-    {
-        imgUrl: img6,
-        name: "React-A-Mole",
-        techStack: "React",
-        description: "Classic arcade inspired whack-a-mole. Demonstrates hooks usage and the react life-cycle.",
-        codeLink: "https://github.com/JasonGarcia131/react-a-mole",
-        pageLink: "https://jasongarcia131.github.io/react-a-mole/"
     },
     {
         imgUrl: img18,
@@ -40,10 +32,18 @@ export const ProjectData = [
         pageLink: "#"
     },
     {
+        imgUrl: img6,
+        name: "React-A-Mole",
+        techStack: "React",
+        description: "Classic arcade inspired whack-a-mole. Project was built for a milestone project for class to understand flexbox and useState/ useEffect hooks in react.",
+        codeLink: "https://github.com/JasonGarcia131/react-a-mole",
+        pageLink: "https://jasongarcia131.github.io/react-a-mole/"
+    },
+    {
         imgUrl: img10,
         name: "Stars",
         techStack: "Mongoose, Express, React, Node",
-        description: "Stars is a journaling app that allows users to register, login, switch themes, publish public or private comments, and upload profile/ header pictures. User authentication and authorization is achieved using jwt tokens in the backend. This app was built to understand the workflow of user authentication and authorization with jwt tokens.",
+        description: "Stars is a journaling app that allows users to register, login, switch themes, publish public or private comments, and upload profile/ header pictures. User authentication and authorization is achieved using jwt tokens in the backend. This app was built to understand the workflow of user authentication and authorization with jwt tokens, interceptors with axios, and persistant logins with refresh tokens.",
         codeLink: "https://github.com/JasonGarcia131/Stars-Frontend",
         pageLink: "https://socialstars.onrender.com/"
     },
