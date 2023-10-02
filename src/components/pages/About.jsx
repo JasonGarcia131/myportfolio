@@ -1,5 +1,4 @@
-import Nav from "../Nav"
-import { Link } from "react-router-dom"
+import Nav from "../Nav";
 const About = () => {
     return (
         <div>
@@ -18,4 +17,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About;

@@ -3,7 +3,6 @@ import { ProjectData } from '../ProjectData';
 
 const Projects = () => {
 
-    console.log(ProjectData)
     const mappedProjects = ProjectData.map((item, index) => (
         <div key={index} className='w-3/4 h-[500px] flex flex-col justify-between my-8 mx-auto border border-black border-solid shadow-2xl shadow-black'>
             <div className='w-[100%] h-[50%] overflow-hidden'>

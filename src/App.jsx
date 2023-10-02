@@ -1,11 +1,8 @@
 import './App.css';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
-import Resume from './components/pages/Resume';
 
 const App = () => {
-
-
   return (
     <>
       <Nav />

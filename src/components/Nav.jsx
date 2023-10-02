@@ -2,20 +2,19 @@ import React from 'react';
 import { useState } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
-import '../index.css'
+import '../index.css';
 
 const Nav = () => {
 
     const [toggle, setToggle] = useState(false);
 
     //Changes elements opacity to show current page. 
-    const BASEURL = "http://localhost:5173/"
+    const BASEURL = "https://jasongarcia131.github.io/myportfolio/"
     const pathname = window.location.href
     const projects = pathname === `${BASEURL}` ? <Link className='text-gray-500' to="/">Projects</Link> : <p><Link to="/">Projects</Link></p>
     const about = pathname === `${BASEURL}about` ? <Link className='text-gray-500' to="/about">About</Link> : <Link to="/about">About</Link>
     const resume = pathname === `${BASEURL}resume` ? <Link className='text-gray-500' to="/resume">Resume</Link> : <Link to="/resume">Resume</Link>
 
-    console.log(pathname === `${BASEURL}resume`)
     const handleToggle = () => {
         setToggle(prev => !prev);
         console.log(toggle);
