@@ -24,8 +24,8 @@ const Resume = () => {
                             Experience
                         </h2>
                         <div className="my-4">
-                            <p>01/2019-current</p>
-                            <h3>Warehouse Supervisor- Deluxity Inc</h3>
+                            <p className="italic">01/2019-current</p>
+                            <h3 className="font-bold underline">Warehouse Supervisor- Deluxity Inc</h3>
                             <p>
                                 Oversee and coordinate general warehouse operations
                                 including: shipping, receiving, inventory management,
@@ -33,8 +33,8 @@ const Resume = () => {
                             </p>
                         </div>
                         <div className="mb-4">
-                            <p>10/2021-current</p>
-                            <h3>Fullstack Software Developer</h3>
+                            <p className="italic">10/2021-current</p>
+                            <h3 className="font-bold underline">Fullstack Software Developer</h3>
                             <p>
                                 Build fullstack MERN and PERN stack CRUD applications designed for optimal UX/ UI experience using REST.
                                 Designed and built applications from games using vanilla javascript to social media applications through client side rending and server side rendering.
@@ -42,16 +42,16 @@ const Resume = () => {
                             </p>
                         </div>
                         <div className="mb-4">
-                            <p>11/2017-11/2019</p>
-                            <h3>Warehouse Supervisor- Dolphin International</h3>
+                            <p className="italic">11/2017-11/2019</p>
+                            <h3 className="font-bold underline">Warehouse Supervisor- Dolphin International</h3>
                             <p> Managed a team of 15 warehouse employees to meet and improve
                                 a set productivity time in an Import/Export live tropical fish warehouse.
                                 Responsibilities included: Scheduling crew, dispatch drivers, and meet cargo ship-out
                                 deadlines, evaluate employee performance, and interview/ hire.</p>
                         </div>
                         <div>
-                            <p>01/2018-01/2019</p>
-                            <h3>Supplemental Instructor/ Tutor- El Camino College</h3>
+                            <p className="italic">01/2018-01/2019</p>
+                            <h3 className="font-bold underline">Supplemental Instructor/ Tutor- El Camino College</h3>
                             <p>
                                 Lead after-class study sessions at El Camino College. The goal
                                 was to create a collaborative learning environment where students were taught how

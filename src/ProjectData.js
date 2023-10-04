@@ -9,7 +9,7 @@ import img3 from "./images/redux-art-gallery-thumbnail.png";
 export const ProjectData = [
     {
         imgUrl: img2,
-        name: "Twitter Message Interface",
+        name: "Twitter Message",
         techStack: "React, Redux",
         description: "Messaging interface with a search bar function and screen stack navigation to mock Twitter's messaging feature. Data is fetched from a db file using a json-server. Navigation was achieved with react-router-dom.",
         codeLink: "https://github.com/JasonGarcia131/Twitter-Messaging-Interface",

@@ -4,7 +4,7 @@ import { FaPhoneAlt } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
 const Hero = () => {
     return (
-        <div className='w-full py-2 flex flex-col justify-between md:flex-row'>
+        <div className='w-full py-2 flex flex-col justify-around md:flex-row'>
             <div className='text-center my-9 flex flex-col md:w-1/2 md:px-[10px] md:my-0 md:flex md:flex-col md:justify-center'>
                 <h1 className='text-6xl font-roboto xl:text-8xl'>Jason Garcia</h1>
                 <br />
