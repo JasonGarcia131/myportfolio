@@ -37,7 +37,7 @@ const Nav = () => {
                 {projects}
                 {resume}
                 {about}
-                <a href='https://github.com'>Github</a>
+                <a href='https://github.com/JasonGarcia131'>Github</a>
             </div>
         </nav>
     )
