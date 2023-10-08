@@ -5,8 +5,17 @@ import img6 from "./images/react-a-mole-thumbnail.png";
 import img18 from "./images/instagram-clone-thumbnail.png";
 import img2 from "./images/twitter-interface-thumbnail.png";
 import img3 from "./images/redux-art-gallery-thumbnail.png";
+import img4 from "./images/postgres-thumbnail.png";
 
 export const ProjectData = [
+    {
+        imgUrl: img4,
+        name: "Warehouse Management System",
+        techStack: "Nodejs, Express, Sequelize, Postgres",
+        description: "Backend api that mocks a warehouse management system for a handbag company. This api performs all the CRUD operations with users and sales orders to mimick data entry for sales reps. Tables are referenced through foreign keys and have one-to-one, one-to-many, and many-to-many relationships.",
+        codeLink: "https://github.com/JasonGarcia131/wms-backend",
+        pageLink: "#"
+    },
     {
         imgUrl: img2,
         name: "Twitter Message",
