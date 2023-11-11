@@ -17,14 +17,13 @@ const Nav = () => {
 
     const handleToggle = () => {
         setToggle(prev => !prev);
-        console.log(toggle);
     }
 
     return (
         <nav className="w-full py-6 flex justify-end ">
             {
                 toggle
-                    ? <div className='flex flex-col mr-2 justify-between fixed top-0 bg-black z-40 md:hidden sidebar'>
+                    ? <div className='w-[70px] flex flex-col mr-2 justify-between fixed top-0 bg-black/50 z-40 md:hidden sidebar'>
                         <div className='self-end' onClick={() => handleToggle()}>X</div>
                         {projects}
                         {resume}
