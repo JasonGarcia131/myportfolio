@@ -12,8 +12,8 @@ export const ProjectData = [
         imgUrl: img10,
         name: "Social Stars",
         techStack: "Mongoose, Express, React, Node",
-        description: "Stars is a journaling app that allows users to register, login, switch themes, publish public or private comments, and upload profile/ header pictures. User authentication and authorization is achieved using jwt tokens in the backend. This app was built to understand the workflow of user authentication and authorization with jwt tokens, interceptors with axios, and persistant logins with refresh tokens.",
-        codeLink: "https://github.com/JasonGarcia131/Stars-Frontend",
+        description: "Stars is a journaling app that allows users to register, login, switch themes, publish public or private comments, and upload profile/ header pictures. User authentication and authorization is achieved using jwt tokens in the backend. This app was built to understand the workflow of user authentication and authorization with jwt tokens, interceptors with axios, and persistant logins with refresh tokens. Backend code repo is under Stars-Backend",
+        codeLink: "https://github.com/JasonGarcia131/socialstars",
         pageLink: "https://socialstars.onrender.com/"
     },
     {
