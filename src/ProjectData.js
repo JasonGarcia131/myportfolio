@@ -4,10 +4,18 @@ import img13 from "./images/timecard-thumbnail.png";
 import img6 from "./images/react-a-mole-thumbnail.png";
 import img18 from "./images/instagram-clone-thumbnail.png";
 import img2 from "./images/twitter-interface-thumbnail.png";
-import img3 from "./images/redux-art-gallery-thumbnail.png";
+import img3 from "./images/bank-thumbnail.png";
 import img4 from "./images/postgres-thumbnail.png";
 
 export const ProjectData = [
+    {
+        imgUrl: img3,
+        name: "Bank Frontend",
+        techStack: "Vite, React, Tailwindcss",
+        description: "Frontend project that demonstrates UX/UI. This application mimics an online banking and payment system landing page where information is presented to the user. Color gradient and font size all working together to attract user attention.",
+        codeLink: "https://github.com/JasonGarcia131/bank-frontend",
+        pageLink: "https://jasongarcia131.github.io/bank-frontend/"
+    },
     {
         imgUrl: img10,
         name: "Social Stars",

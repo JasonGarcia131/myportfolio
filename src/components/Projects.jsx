@@ -6,11 +6,11 @@ const Projects = () => {
     const mappedProjects = ProjectData.map((item, index) => (
         <div key={index} className='max-w-md h-[500px] flex flex-col justify-between my-8 mx-auto border border-black border-solid shadow-2xl shadow-black'>
             <div className='w-[100%] h-[50%]'>
-                <img className='object-contain h-[100%] w-[100%]' src={item.imgUrl} alt='project thumnail' />
+                <img className='object-fit h-[100%] w-[100%]' src={item.imgUrl} alt='project thumnail' />
             </div>
-            <div className='h-[45%] flex flex-col justify-around items-center  p-6'>
+            <div className='flex flex-col justify-around items-center p-6'>
                 <h3 className='text-2xl font-medium'>{item.name}</h3>
-                <p>{item.description}</p>
+                <p className='overflow-y-scroll'>{item.description}</p>
             </div>
             <div className='w-full h-[5%] object-bottom items-end px-2 flex flex-row justify-between'>
                 <a className='underline' href={item.codeLink}>Code</a>

@@ -8,7 +8,7 @@ const Resume = () => {
                 <h1 className="text-4xl mb-6">Professional Summary</h1>
                 <p className="mx-2 w-[80%]">
                     Software developer with experience in developing and designing web applications using HTML,
-                    CSS, JavaScript, Angular, Node.js, and React. Adept at developing and deploying complex backend
+                    CSS, JavaScript, Node.js, and React. Adept at developing and deploying complex backend
                     systems, web services and databases. 5+ years in warehouse management in a shipping/ receiving environment.
                 </p>
             </section>
