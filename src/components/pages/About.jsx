@@ -1,20 +1,30 @@
 import Nav from "../Nav";
 const About = () => {
-    return (
-        <div>
-            <Nav />
-            <div className="absolute top-[25%] bottom-[25%] text-center md:text-left md:w-[60%] md:left-[25%] my-8">
-                <h1 className="text-4xl font-montserrat">About Me</h1>
-                <p className="my-4 mx-4 md:mx-0">
-                    With 5+ years warehouse supervisor experience and 2 years software develpoment experience, I have built a mindset of efficiency, excecution and leadership.
-                    Throughout the years, my strengths were highlighted, but, most importantly, my weaknesses were recognized through this journey of professional self-development.
-                    As I branch out into a new career path in Software Development, I bring along the experience and passion to create, collaborate, and build.
-                </p>
-                <a className="mr-2 underline" href="https://www.linkedin.com/in/jason-garcia-00b71b245/">LinkedIn</a>
-                <a className='underline' href="https://github.com/JasonGarcia131/Portfolio-React">Portfolio Source Code</a>
-            </div>
-        </div>
-    )
-}
+  return (
+    <div className=" w-full flex mt-20 justify-center items-center lg:h-screen lg:w-1/2 lg:mt-0 lg:bg-white lg:text-black">
+      <div className="w-[50%]">
+        <h1 className="text-6xl text-center font-roboto lg:text-left lg:text-4xl">About Me</h1>
+        <p className="my-4 text-xl">
+          Software developer with 5 years warehouse management experience. Skills, such as time management, team playing,
+          and problem solving have been tested and strengthened throughout the years in a warehouse environment. As I branch out
+          to a new career path in software development, I bring all the transferable skills to a new environment where I can continue to
+          learn, contribute, and grow.
+        </p>
+        <a
+          className="mr-2 underline"
+          href="https://www.linkedin.com/in/jason-garcia-00b71b245/"
+        >
+          LinkedIn
+        </a>
+        <a
+          className="underline"
+          href="https://github.com/JasonGarcia131/Portfolio-React"
+        >
+          Portfolio Source Code
+        </a>
+      </div>
+    </div>
+  );
+};
 
 export default About;
