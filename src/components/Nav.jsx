@@ -16,8 +16,6 @@ const Nav = () => {
     const projects = pathname === `${BASEURL}` ? <Link className='font-bold text-xl underline' to="/">Projects</Link> : <p><Link to="/">Projects</Link></p>
     const resume = pathname === `${BASEURL}resume` ? <Link className='font-bold text-xl underline' to="/resume">Resume</Link> : <Link to="/resume">Resume</Link>
 
-    console.log("path", pathname)
-    console.log("base", BASEURL)
     const handleToggle = () => {
         setToggle(prev => !prev);
     }

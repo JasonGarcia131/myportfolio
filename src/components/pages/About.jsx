@@ -1,4 +1,3 @@
-import Nav from "../Nav";
 const About = () => {
   return (
     <div className=" w-full flex mt-20 justify-center items-center lg:h-screen lg:w-1/2 lg:mt-0 lg:bg-white lg:text-black">
