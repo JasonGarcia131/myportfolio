@@ -44,7 +44,7 @@ const Resume = () => {
   });
 
   return (
-    <div className="flex flex-col justify-between">
+    <div className="flex flex-col justify-between mt-20">
       <Nav />
       <section className="w-full h-[30%] text-center my-6 p-4 flex flex-col items-center">
         <h1 className="text-4xl mb-6 font-bold">Professional Summary</h1>

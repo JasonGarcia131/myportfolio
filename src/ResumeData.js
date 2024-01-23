@@ -24,6 +24,6 @@ export const Experience = [
 
 export const Languages = ["Javascript/ Nodejs", "Typescript", "Python", "C++"]
 
-export const Frameworks = ["React", "Vite", "Express", "Flask", "Sass"]
+export const Frameworks = ["Express", "React", "Flask",  "Sass", "Vite"]
 
 export const Databases = ["MongoDb", "Postgres"]

@@ -4,7 +4,7 @@ import { ProjectData } from '../ProjectData';
 const Projects = () => {
 
     const mappedProjects = ProjectData.map((item, index) => (
-        <div key={index} className='max-w-lg h-[600px] bg-white text-black flex flex-col justify-between mb-16 mx-auto border border-white shadow-2xl shadow-slate-400'>
+        <div key={index} className='w-[400px] max-w-lg h-[500px] bg-white text-black flex flex-col justify-between mb-16 mx-auto border border-white shadow-2xl shadow-slate-400'>
             <div className='w-[100%] h-[50%] border-b border-black'>
                 <img className='h-[100%] w-[100%]' src={item.imgUrl} alt='project thumnail' />
             </div>
@@ -21,7 +21,7 @@ const Projects = () => {
 
     return (
         <div className='mt-20 lg:mt-40'>
-            <h2 className='text-center text-6xl font-bold mb-6 lg:mb-20'>Projects</h2>
+            <h2 className='text-center text-6xl font-roboto mb-10'>Projects</h2>
             <div className='w-full flex flex-wrap'>
              {
                 mappedProjects
