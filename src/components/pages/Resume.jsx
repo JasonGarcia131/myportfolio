@@ -52,8 +52,7 @@ const Resume = () => {
           Software developer with experience in developing and designing web
           applications using HTML, CSS, JavaScript, Node.js, and React. Adept at
           developing and deploying complex backend systems, web services and
-          databases. 5+ years in warehouse management in a shipping/ receiving
-          environment.
+          databases. 5+ years experience in warehouse management environment.
         </p>
       </section>
       <div className="px-6 my-6 flex flex-col  justify-between md:flex-row">

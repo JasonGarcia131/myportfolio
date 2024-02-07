@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 const MyInfo = () => {
   return (
     <div className="flex flex-col mt-20 lg:border lg:border-white lg:w-[50%] lg:mt-0">
-      <div className="m-auto text-center lg:text-left lg:w-[70%]">
+      <div className="m-auto text-center lg:text-left">
         <h1 className="text-8xl mb-2 font-roboto">Jason Garcia</h1>
         <TypeAnimation
           sequence={[

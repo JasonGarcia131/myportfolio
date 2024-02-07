@@ -21,7 +21,7 @@ const Nav = () => {
     }
 
     return (
-        <nav className="w-full h-[90px] font-roboto mb-10 flex justify-center items-center fixed top-0 z-50 lg:bg-black lg:border-b lg:border-white ">
+        <nav className="w-full h-[90px] bg-black font-roboto mb-10 flex justify-center items-center fixed top-0 z-50 lg:border-b lg:border-white ">
             {
                 toggle
                     ? <div className='w-[70px] flex flex-col mr-2 justify-between fixed right-0 bg-black/50 z-40 md:hidden sidebar'>

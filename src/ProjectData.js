@@ -48,20 +48,20 @@ export const ProjectData = [
         codeLink: "https://github.com/JasonGarcia131/Twitter-Messaging-Interface",
         pageLink: "https://jasongarcia131.github.io/Twitter-Messaging-Interface/"
     },
-    {
-        imgUrl: img6,
-        name: "React-A-Mole",
-        techStack: "React",
-        description: "Classic arcade inspired whack-a-mole. Project was built for a milestone project for class to understand flexbox and useState/ useEffect hooks in react.",
-        codeLink: "https://github.com/JasonGarcia131/react-a-mole",
-        pageLink: "https://jasongarcia131.github.io/react-a-mole/"
-    },
-    {
-        imgUrl: img1,
-        name: "Halloween BlackJack",
-        techStack: "Vanilla Javascript",
-        description: "Halloween themed multiplayer blackjack game. Users take turns drawing cards to sum their hand to 21. Focused around object oriented programming and functional programming. Custom methods for drawing cards, adding cards to hand, and ending user turn.",
-        codeLink: "https://github.com/JasonGarcia131/Halloween-BlackJack",
-        pageLink: "https://jasongarcia131.github.io/Halloween-BlackJack/"
-    }
+    // {
+    //     imgUrl: img6,
+    //     name: "React-A-Mole",
+    //     techStack: "React",
+    //     description: "Classic arcade inspired whack-a-mole. Project was built for a milestone project for class to understand flexbox and useState/ useEffect hooks in react.",
+    //     codeLink: "https://github.com/JasonGarcia131/react-a-mole",
+    //     pageLink: "https://jasongarcia131.github.io/react-a-mole/"
+    // },
+    // {
+    //     imgUrl: img1,
+    //     name: "Halloween BlackJack",
+    //     techStack: "Vanilla Javascript",
+    //     description: "Halloween themed multiplayer blackjack game. Users take turns drawing cards to sum their hand to 21. Focused around object oriented programming and functional programming. Custom methods for drawing cards, adding cards to hand, and ending user turn.",
+    //     codeLink: "https://github.com/JasonGarcia131/Halloween-BlackJack",
+    //     pageLink: "https://jasongarcia131.github.io/Halloween-BlackJack/"
+    // }
 ]
