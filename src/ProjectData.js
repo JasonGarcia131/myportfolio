@@ -1,7 +1,7 @@
 import img1 from "./images/blackjack-homepage-thumbnail.png";
 import img10 from "./images/startsHomePage.png";
 import img13 from "./images/timecard-thumbnail.png";
-import img6 from "./images/react-a-mole-thumbnail.png";
+import img6 from "./images/insperity-thumbnail.png";
 import img18 from "./images/instagram-clone-thumbnail.png";
 import img2 from "./images/twitter-interface-thumbnail.png";
 import img3 from "./images/bank-thumbnail.png";
@@ -15,6 +15,14 @@ export const ProjectData = [
         description: "Frontend project that demonstrates UX/UI. This application mimics an online banking and payment system landing page where information is presented to the user. Color gradient and font size all working together to attract user attention.",
         codeLink: "https://github.com/JasonGarcia131/bank-frontend",
         pageLink: "https://jasongarcia131.github.io/bank-frontend/"
+    },
+     {
+        imgUrl: img6,
+        name: "Insperity",
+        techStack: "Vite, React, Tailwindcss",
+        description: "Redesign of an employee clock in/out dashboard. Original site was not mobile responsive, which inspired me to build this mock webpage.",
+        codeLink: "https://github.com/JasonGarcia131/insperity",
+        pageLink: "https://jasongarcia131.github.io/insperity/"
     },
     {
         imgUrl: img10,
